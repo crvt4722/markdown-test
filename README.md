@@ -1,6 +1,6 @@
 ## Q: What are the differences between these instructions?
 
-1. **ARG vs ENV:**  
+**1. ARG vs ENV:**  
 - ARG: được sử dụng để truyền các giá trị đến trong quá trình xây dựng image  
 - ENV: được sử dụng để thiết lập các biến môi trường trong container.  
 
