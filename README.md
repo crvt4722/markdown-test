@@ -4,9 +4,9 @@
 ARG: được sử dụng để truyền các giá trị đến trong quá trình xây dựng image  
 ENV: được sử dụng để thiết lập các biến môi trường trong container.  
 
-Ví dụ:  
-// Dockerfile sử dụng ARG để truyền tham số vào trong quá trình build image  
-ARG NODE_VERSION=14  
+> Ví dụ:  
+> // Dockerfile sử dụng ARG để truyền tham số vào trong quá trình build image  
+> ARG NODE_VERSION=14  
 
 // Sử dụng ENV để định nghĩa các biến môi trường trong container  
 ENV APP_HOME=/usr/src/app  
